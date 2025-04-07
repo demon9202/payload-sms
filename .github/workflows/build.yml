@@ -36,5 +36,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: MyApp
-          path: |
-            bin/*.apk
+          path: ./bin
